@@ -2,8 +2,8 @@
 #!desc=上下班打卡
 
 [MITM]
-hostname =*.ruiwingroup.com:89
+hostname =oa.ruiwingroup.com:89
 
 [Script]
-上下班打卡 = type=http-request,pattern=^https?:\/\/oa\.ruiwingroup\.com:89\/client\.do\?method=checkin&type=(checkin|checkout),script-path=https://raw.githubusercontent.com/Chastrlove/surge_rules/master/scripts/sign.js
+睿赢 = type=http-request,pattern=^https?:\/\/oa\.ruiwingroup\.com:89\/client\.do\?method=checkin&type=(checkin|checkout),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Chastrlove/surge_rules/master/scripts/sign.js
 

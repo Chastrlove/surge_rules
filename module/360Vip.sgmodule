@@ -1,8 +1,8 @@
-#!name=360VIP
-#!desc=360VIP
+#!name=VIP
+#!desc=VIP
 
 [MITM]
 hostname = %APPEND% *.360aidata.com
 
 [Script]
-vip = type=http-response,pattern=^https?:\/\/www\.360aidata\.com\/fzyq-web\/confined\/account\/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Chastrlove/surge_rules/master/scripts/vip.js
+360 = type=http-response,pattern=fzyq-web\/confined\/account\/profile,requires-body=1,max-size=0,script-path=,script-path=https://raw.githubusercontent.com/Chastrlove/surge_rules/master/scripts/vip.js

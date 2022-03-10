@@ -9,6 +9,8 @@ body.content['vipForAll']['valuationVip']['vipType'] = "1"
 body.content['vipForAll']['valuationVip']['openVipFlag'] = true
 body.content['vipForAll']['fzyqVip']['openVipFlag'] = true
 
+$.log('正在修改',body);
+
 $.done({headers, body: JSON.stringify(body)})
 
 function ENV() {

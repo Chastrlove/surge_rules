@@ -1,0 +1,7 @@
+#!name=MitmOverHttp2
+#!desc=使用HTTP/2协议进行MITM解密，可在高并发下优化性能
+#!system=mac
+
+[MITM]
+h2 = true
+
